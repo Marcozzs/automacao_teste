@@ -6,9 +6,7 @@ def test_login_accepeted(page: Page):
     # 2. Instancia a Page Object 
     login_page = LoginPage(page)
     # 3. Executa a ação de login mapeada na classe
-    login_page.login("standard_user", "secret_sauce")
-    login_page.
-    
+    login_page.login("standard_user", "secret_sauce")    
     # 4. Validação simples para garantir que a ação ocorreu (mudou de URL)
     assert "inventory.html" in page.url
     print("\nValidação OK: Login com sucesso!")
