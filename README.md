@@ -57,5 +57,3 @@ Para rodar os testes abrindo o navegador visualmente (--headed) e exibindo as me
 pytest -s --headed
 ```
 ------------------------------------------------------------------------------------------------------------------
-
-Status: concluído, com testes de login do Sauce Demo
