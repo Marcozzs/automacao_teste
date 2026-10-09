@@ -15,7 +15,7 @@ Projeto de automação de testes desenvolvido para validar os fluxos de login da
 ## Estrutura do Projeto
 
 ```text
-playwright_pytest_framework/
+automacao_teste/
 ├── pages/
 │   └── login_page.py       # Mapeamento de elementos e ações da tela de login
 ├── tests/
@@ -50,4 +50,8 @@ playwright install
 ------------------------------------------------------------------------------------------------------------------
 4. Executar os testes
 Para rodar os testes abrindo o navegador visualmente (--headed) e exibindo as mensagens no terminal (-s):
+
+```bash
+pytest -s --headed
+```
 ------------------------------------------------------------------------------------------------------------------
