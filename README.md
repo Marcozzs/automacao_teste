@@ -19,7 +19,7 @@ automacao_teste/
 ├── pages/
 │   └── login_page.py       # Mapeamento de elementos e ações da tela de login
 ├── tests/
-│   └── test_example.py     # Casos de teste automatizados
+│   └── test_login.py     # Casos de teste automatizados
 ├── .gitignore              # Arquivos ignorados pelo controle de versão
 ├── pytest.ini              # Configurações do Pytest
 └── requirements.txt        # Dependências do projeto
@@ -55,3 +55,5 @@ Para rodar os testes abrindo o navegador visualmente (--headed) e exibindo as me
 pytest -s --headed
 ```
 ------------------------------------------------------------------------------------------------------------------
+
+Status: concluído, com testes de login do Sauce Demo
