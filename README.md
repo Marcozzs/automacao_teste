@@ -31,7 +31,7 @@ Siga os passos abaixo para rodar os testes na sua máquina:
 1. Clonar o repositório
 Bash
 git clone [https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.com/Marcozzs/automacao_teste.git)
-cd playwright_pytest_framework
+cd automacao_teste
 ------------------------------------------------------------------------------------------------------------------
 2. Criar e ativar o ambiente virtual (venv)
 No macOS / Linux:
